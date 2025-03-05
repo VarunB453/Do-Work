@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg-primary: #0F0A1F;
+  --color-bg-secondary: #1A1525;
+  --color-accent-purple: #9333EA;
+  --color-accent-blue: #3B82F6;
+  --color-text-primary: #E2E8F0;
+  --color-text-secondary: #94A3B8;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
+
+.glass-card {
+  background: rgba(26, 21, 37, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
